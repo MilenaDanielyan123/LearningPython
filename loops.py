@@ -110,3 +110,44 @@
 #for i in range(1, n+1):
 #    a +=i**2
 #print(a)    
+
+#n = int(input("Enter a number:"))#Տրված է n թիվը։ Հաշվել 1³ + 2³ + ... + n³։
+#a = 0
+#for i in range(1, n+1):
+#    i **=3
+#    a += i
+#print(a)    
+
+#n = int(input()) #Տրված է n թիվը։ Գտնել նրա բոլոր բաժանարարները։
+#i = 1
+#while n >= 1:
+#    if n % i == 0:
+#        print(i)
+#    i +=1    
+
+#n= int(input("Enter a number:"))# Տրված է n թիվը։ Հաշվել նրա բաժանարարների քանակը։
+#a =0
+#for i in range(1, n+1):
+#    if n %i == 0:
+#        a +=1
+#print(a)    
+
+#n = int(input("Enter a number:"))#Տրված է n թիվը։ Որոշել՝ այն պարզ թիվ է, թե ոչ։
+#i = 1
+#a = 0
+#while i <= n:
+#    if n % i ==0:
+#        a +=1
+#    i +=1
+#if a == 2:
+#    print("The number is prime.")        
+#else:
+#    print("The number is not prime.")    
+     
+n = int(input("Enter a number:"))#Տրված է n թիվը։ Գտնել նրանից փոքր ամենամեծ պարզ թիվը։    
+for i in range(1, n, 1):
+    if n %i ==0:
+        print(i)
+        
+        
+        
